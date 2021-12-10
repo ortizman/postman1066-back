@@ -1,0 +1,17 @@
+{
+  "name": "postman1066-back",
+  "version": "1.0.0",
+  "description": "get public postman collection",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ortizman",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^3.1.0"
+  }
+}

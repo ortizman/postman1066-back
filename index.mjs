@@ -11,7 +11,11 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 
-app.get('/', async (req, res) => {
+app.get('/', async (req, res) => {  
+    res.send('OK');
+})
+
+app.get('/collection', async (req, res) => {
     try {
         console.log('Fetch: ', req.query.collectionUrl);
         const collection = await fetch(req.query.collectionUrl)
